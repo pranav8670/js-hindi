@@ -39,7 +39,7 @@ console.log(`my name is ${userName} and score is ${userScore}`);
 // How to declare String 
 
 let myName = "pranav";                   // 1st syntax to declare
-let myAltName = new String('Harshal');   // 2ns syntax to declare   // paste this to browser consle and
+let myAltName = new String('Tiku');   // 2ns syntax to declare   // paste this to browser consle and
                                                       
 console.log(typeof(myName));        // string
 console.log(typeof(myAltName));     // object
@@ -47,6 +47,6 @@ console.log(typeof(myAltName));     // object
 console.log(myName);        // pranav
 console.log(myAltName);     // [String: 'Harshal']
 
-console.log(myName.length);        // pranav
-console.log(myAltName.length);     // [String: 'Harshal']
+console.log(myName.length);        // 6
+console.log(myAltName.length);     // 7
 

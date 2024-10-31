@@ -1,8 +1,8 @@
 // ways to define objects
 
- // 1) Object Lateral  2) object constructor
+ // 1) Object Lateral  2) object constructor (isse singleton bnta hain object.create)
 
- // Object Lateral
+ // 1) Object Lateral
 
  const myObj = {
     'name' : 'Pranav',
@@ -15,10 +15,10 @@
 
  console.log(myObj.age);
  console.log(myObj['location']);       // why we need this syntax to print 
-//  console.log(myObj.full name);         // bcz this type of key U can't access using dot(.) 
+//  console.log(myObj.full name);         // bcz this type of key U can't access using dot(.) bcz key has on empthy space
  console.log(myObj["full name"]);       // U have to use [ ] for this.
 
-// to chenge value
+// to change value
 myObj.age = 28;
 console.log(myObj.age);
 
@@ -86,8 +86,6 @@ console.log(Object.entries(mobileUser));
 // agar humne kuch property search karna ho toh 
 console.log(mobileUser.hasOwnProperty('sim'));           // true
 console.log(mobileUser.hasOwnProperty('islogged'));      // false
-
-
 
 
 
