@@ -1,5 +1,4 @@
 // Prime
-console.log("eegr");
 
 function isPrime(num){
   // phase 1 : num shold not less then 2 

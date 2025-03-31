@@ -1,0 +1,12 @@
+1) palendrome
+2) Prime
+3) fibonacci
+4) reverse
+5) compress
+6) Find unique Ele in array (2 array as input) : 2 ways to solve
+7) frequencies (output : ['1:2', '3:5', '6:2', '4:2'])
+8) Find Duplicates in array
+9) Find Largest no.
+10) print unique key value pair form 2 objects
+11) make flat array
+12) 

@@ -20,3 +20,21 @@ function compress(str){
 }
 
 console.log(compress("ggggqqqqjkkklll"));
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function flattenArray(arr) {
+    let result = []; // Store the flattened elements
+
+    for (const item of arr) {
+        if (Array.isArray(item)) {
+            result.push(...flattenArray(item)); // Recursively flatten nested arrays
+            console.log(result);
+        } else {
+            result.push(item); // Add non-array values
+        }
+    }
+    return result;
+}
+
+const arr = [1, [2, 5, 5], 5, [5, 6]];
+console.log(flattenArray(arr)); // Output: [1, 2, 5, 5, 5, 5, 6]
