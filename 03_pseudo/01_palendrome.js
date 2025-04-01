@@ -23,5 +23,5 @@ function isPalendrome(str){
    return true;
 }
 
-let str = "pranavvanarp"
+let str = "pranavuvanarp"
 console.log(isPalendrome(str));
