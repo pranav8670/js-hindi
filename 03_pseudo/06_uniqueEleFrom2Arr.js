@@ -39,26 +39,48 @@
 
  /////another way usnig forOf //////////////////////
 
- function uniqueArr(arr1, arr2) {
-   let resultArr = [];
+//  function uniqueArr(arr1, arr2) {
+//    let resultArr = [];
    
-   for(let num of arr1){
-       if(!resultArr.includes(num)){
-         resultArr.push(num);
-       }
+//    for(let num of arr1){
+//        if(!resultArr.includes(num)){
+//          resultArr.push(num);
+//        }
  
-   }
+//    }
  
-   for(let num of arr2){
-       if(!resultArr.includes(num)){
-         resultArr.push(num);
-       }
-   }
-   return resultArr
+//    for(let num of arr2){
+//        if(!resultArr.includes(num)){
+//          resultArr.push(num);
+//        }
+//    }
+//    return resultArr
+//  }
+ 
+//  const arr1 = [4,5,6,6,8,9,9,9,2,3]; 
+//  const arr2 = [4,5,6,6,8,6,6,6,2,5,5,88,88,90,90,60]; 
+//  console.log(uniqueArr(arr1, arr2));
+
+ //// you can use set also 
+
+ // merge and make unque array;
+
+function unique(arr1,arr2){
+  let uniqueArr = new Set();
+  
+  for(let num of arr1){
+      uniqueArr.add(num);
+  }
+  for(let num of arr2){
+      if(!uniqueArr.has(num)){
+          uniqueArr.add(num);
+      }
+  }
+  
+  return [...uniqueArr];
+     
  }
  
  const arr1 = [4,5,6,6,8,9,9,9,2,3]; 
- const arr2 = [4,5,6,6,8,6,6,6,2,5,5,88,88,90,90,60]; 
- console.log(uniqueArr(arr1, arr2));
-
- //// you can use set also 
+ const arr2 = [4,5,6,6,8,6,6,6,2,5,5]
+ console.log(unique(arr1,arr2));
