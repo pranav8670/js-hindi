@@ -1,5 +1,5 @@
-// 
-// input : angular , need output : ularang
+// in 3 iteration we need to print the output ularang
+// input : angular , need output : 3
 
 function moveChar(str){
     let iteration  = 0;
