@@ -9,4 +9,11 @@
 9) Find Largest no.
 10) print unique key value pair form 2 objects
 11) make flat array
-12) 
+12) non-reteating char
+13) Even char should be uppercase
+14) distinct and duplicate values of array
+15) Factorial of number
+16) Sorting array
+17) transform string to Title case
+18) Finding anagrams strings
+19) finding the unique deveice names from array of strings
