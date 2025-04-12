@@ -11,10 +11,11 @@
 11) make flat array
 12) non-reteating char
 13) transform even numbers capital of string
-14) distinct and duplicate values of array
-15) Factorial of number
-16) Sorting array
-17) transform string to Title case
-18) Finding anagrams strings ( ["code", "aaagmnrs", "anagrams", 'doce'] )
-19) finding the unique deveice names from array of strings (["mixer", "toaster", "mixer", 'mixer','toaster'])
-20)  
+14) move char to end
+15) distinct and duplicate values of array
+16) Factorial of number
+17) Sorting array
+18) transform string to Title case
+19) Finding anagrams strings ( ["code", "aaagmnrs", "anagrams", 'doce'] )
+20) finding the unique deveice names from array of strings (["mixer", "toaster", "mixer", 'mixer','toaster'])
+21) 
