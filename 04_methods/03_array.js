@@ -50,3 +50,7 @@ const arr1 = [10,[20,30,20],30]
 const flatArr = arr1.flat(Infinity); 
 console.log(flatArr);                                // [ 10, 20, 30, 20, 30 ]
 
+// Join an array: 
+const arr2 = ['main', 'hu', 'don' ];
+console.log(arr2.join(""));                        // mainhudon
+
