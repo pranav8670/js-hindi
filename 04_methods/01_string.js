@@ -12,6 +12,7 @@ console.log(str.slice(1,7));                                       // ello W - s
 
 console.log(str.split(" "));                                       // [ 'Hello', 'World' ]  - it split from given input and 
                                                                    // put it in a array
+console.log(str.split(""));                                        // ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']                            
 
 console.log(str.includes("W"));                                    // true - same methods we can use in array
 

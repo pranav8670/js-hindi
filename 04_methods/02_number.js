@@ -14,6 +14,7 @@ console.log(num2.toPrecision(4));                // "335.8"
 
 //Check
 console.log(isNaN("main"))                       // true
+console.log(isNaN(50))                           // false
 console.log(isFinite(10))                        // true
 console.log(isFinite(Infinity))                  // false
 
