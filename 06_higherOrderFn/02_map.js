@@ -1,4 +1,4 @@
-//map()
+// map() - Array Method
 // map() transform each element of an array and return a new array of same length 
 
 // Syntax 
