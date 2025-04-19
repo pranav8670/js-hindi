@@ -1,0 +1,14 @@
+Method	                Use Case Example
+
+map()	                Transform each item
+filter()	            Keep only matching items
+reduce()	            Accumulate into a single value
+
+forEach()	            Iterate (but doesn’t return anything)
+some()	                Check if any item meets a condition
+every()             	Check if all items meet a condition
+
+find()	                Get the first item that matches
+includes()	            Check if array contains a value
+sort()	                Reorder array items
+flat() / flatMap()	    Flatten nested arrays
