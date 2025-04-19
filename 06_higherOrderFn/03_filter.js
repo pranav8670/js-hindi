@@ -1,9 +1,9 @@
 // filter() - Array Method
 // it filters elements based on condition and return only those that meet the criteria.
-// it return new arry with fewer elements
+// it return new array with fewer elements
 
 //   array.filter((item, index, array) => {
-//     return condition; // should return true or false
+//     return condition; // should return true or false // after that it return array
 //   });
 
 
