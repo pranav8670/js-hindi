@@ -20,3 +20,12 @@ map()	    Transform each element	                      ✅ Yes	                 
 filter()	Filter elements based on condition	          ✅ Yes	                    ❌ No	            ❌ No	    ❌ No
 reduce()	Reduce to a single value	                  ❌ No (can return any type)✅ Yes	            ✅ Yes	    ❌ No
 forEach()	Run a function on each item	                  ❌ No	                    ❌ No	            ❌ No	    ✅ Yes
+
+
+
+
+⚠️ find() vs filter()
+// Method               |                Returns                     |       Finds one or many?
+
+// find()               |    First matching element or undefined     |             🔍 One
+// filter()             |      Array of all matching elements        |             🔎 Many

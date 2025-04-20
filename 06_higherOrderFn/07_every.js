@@ -10,3 +10,8 @@
 //     // return true or false
 //   });
 
+
+const numbers = [10, 20, 30, 40];
+
+const allPositive = numbers.every(num => num > 0);
+console.log('All positive?', allPositive); // true
